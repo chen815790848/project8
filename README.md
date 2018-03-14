@@ -1,6 +1,7 @@
 # Git学习
-## 首先选用一个远程仓库，这里选的是github作为远程仓库
-注册账号，建立仓库project8，会出现运程仓库的url
+## 首先选用一个托管平台，这里选的是github作为远程托管平台
+注册账号，建立仓库project8，会出现运程仓库的url  
+托管平台有gitlab,bitbucket,开源中国代码托管，coding.net
 ## 在本地新project8本地仓库，如下操作
         mkdir project8
         cd project8
@@ -56,6 +57,9 @@
 
         git push origin :dev1
 远程仓库删除操作
+### 删除本地文件／文件夹
+                git rm [file]
+                git rm -r [fold]/
 
 ## 查看文件修改前后差异
         git diff [filename]
@@ -82,6 +86,9 @@
         git branch --set-upstream-to=origin/dev dev
         git branch --set-upstream dev origin/dev
         git config --global push.default matching
+
+#### 远程分支，远程跟踪分支，跟踪分支
+远程跟踪分支是在本地的只读的记录远程分支状态的分支，其指向用户无法移动，当使用git fetch等指令时其指向会依照远程仓库自动移动。跟踪分支是从远程跟踪分支上生成的本地分支
 
 end.
 ...
