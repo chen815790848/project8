@@ -38,7 +38,11 @@
 
 ## 解决冲突
 
-        待看
+        #将dev2合并到dev1，dev1是当前分支
+        git merge dev2
+        #会有提示Please enter a commit message to explain why this merge is necessary.
+
+
 
 ## 删除分支
         git branch -d dev1
