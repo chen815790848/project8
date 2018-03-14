@@ -11,15 +11,17 @@
 
         git remote add origin [url]
         git push -u origin master
-        这样就可以把README.md上传到远程仓库
+这样就可以把README.md上传到远程仓库
+
+也可以直接克隆远程仓库
+
+        git clone [url]
 
 ## 添加新分支的 dev1
         git branch dev1
-        git branch #查看分支
+        git branch
         git branch -r
-        git add .
-        git commit -m "add dev1"
-        git push
+        git push origin dev1
 
 ## 切换分支 从master到dev1
         git checkout dev1
@@ -45,3 +47,16 @@
         git branch -D dev1
 强制删除
 
+        git push origin :dev1
+远程仓库删除操作
+
+
+## 待定
+## 
+
+
+### 其他
+#### 直接使用git pull和git push的设置,两种方式：意思是默认将本地的dev分支的推送到origin/dev
+        git branch --set-upstream-to=origin/dev dev
+        git branch --set-upstream dev origin/dev
+        git config --global push.default matching
