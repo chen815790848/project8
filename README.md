@@ -67,7 +67,7 @@
 
         git diff
 
-## 签出 checkout 比较危险的操作
+## 签出 checkout 比较**危险**的操作
 ## pull操作，可以从远程仓库取回分支，与本地分支合并
                 git pull origin dev1
 相当于
@@ -90,8 +90,13 @@
 #### 远程分支，远程跟踪分支，跟踪分支
 远程跟踪分支是在本地的只读的记录远程分支状态的分支，其指向用户无法移动，当使用git fetch等指令时其指向会依照远程仓库自动移动。跟踪分支是从远程跟踪分支上生成的本地分支
 
-#### 相关图片
-![]（https://user-gold-cdn.xitu.io/2017/9/8/0faee16a319f24e8ae7c1f949f52eb1d?imageView2/0/w/1280/h/960/ignore-error/1）  
+#### 相关图片  
+
+![](https://user-gold-cdn.xitu.io/2017/9/8/5183149719f6e7f7652ece27e6ef2c5e?imageslim)
+![](https://user-gold-cdn.xitu.io/2017/9/8/8c67d6a03df64fcde8cac7d3ed0d92e9?imageView2/0/w/1280/h/960/ignore-error/1)
+![日常记住的几个命令](https://user-gold-cdn.xitu.io/2017/9/8/c65250b040f69c54c515c0aea36f1d1f?imageslim)
+日常记住的几个命令
+
 end.  
 ...
 
