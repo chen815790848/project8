@@ -91,8 +91,8 @@
 远程跟踪分支是在本地的只读的记录远程分支状态的分支，其指向用户无法移动，当使用git fetch等指令时其指向会依照远程仓库自动移动。跟踪分支是从远程跟踪分支上生成的本地分支
 
 #### 相关图片
-![](project8/0faee16a319f24e8ae7c1f949f52eb1d.png)
-end.
+![]（https://user-gold-cdn.xitu.io/2017/9/8/0faee16a319f24e8ae7c1f949f52eb1d?imageView2/0/w/1280/h/960/ignore-error/1）  
+end.  
 ...
 
 
