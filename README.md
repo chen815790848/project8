@@ -57,8 +57,23 @@
         git push origin :dev1
 远程仓库删除操作
 
+## 查看文件修改前后差异
+        git diff [filename]
+直接
+
+        git diff
+
+## 签出 checkout 比较危险的操作
+## pull操作，可以从远程仓库取回分支，与本地分支合并
+                git pull origin dev1
+相当于
+
+                git fetch origin
+                git merge origin/dev2
+
 
 ## 待定
+
 ## 
 
 
@@ -69,5 +84,6 @@
         git config --global push.default matching
 
 end.
+...
 
 
