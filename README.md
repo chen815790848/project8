@@ -42,6 +42,9 @@
         git merge dev2
         #会有提示Please enter a commit message to explain why this merge is necessary.
 
+        #然后提交到远程仓库
+        git push origin dev1
+
 
 
 ## 删除分支
@@ -64,3 +67,7 @@
         git branch --set-upstream-to=origin/dev dev
         git branch --set-upstream dev origin/dev
         git config --global push.default matching
+
+end.
+
+
