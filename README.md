@@ -94,7 +94,7 @@
 
 #### 相关图片  
 
-![](https://user-gold-cdn.xitu.io/2017/9/8/5183149719f6e7f7652ece27e6ef2c5e?imageslim)
+![](https://user-gold-cdn.xitu.io/2017/9/8/5183149719f6e7f7652ece27e6ef2c5e?imageslim)  
 文件的一些状态
 
 ![](https://user-gold-cdn.xitu.io/2017/9/8/8c67d6a03df64fcde8cac7d3ed0d92e9?imageView2/0/w/1280/h/960/ignore-error/1)
