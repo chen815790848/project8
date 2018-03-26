@@ -6,6 +6,8 @@
 ### Struts
 - MVC Web应用框架
 - 作为控制器连接模型与视图进行数据交换
+- Apache Struts 2最初被称为WebWork 2
+- MVC
 
 ### Spring
 - 轻量级控制反转（Ioc）&面向切面（AOP）的容器框架
@@ -13,6 +15,7 @@
 
 ### hiberbate
 - 使用对象编程思维来操纵数据库
+- POJO
 
 ###
 - 在SSH的设计理念：要使用某个实例，那么就定义声明一个对象，然后给它添加set方法（用于spring注入进来；实现不要关注这个实例来自于那里，以及怎么创建，或者它是谁
@@ -38,6 +41,12 @@
 ### Spring
 - IOC & DI
 
+### JSP（Java Server Pages）
+
+### Servelet
+
+### MySQL安装和EMSSQL ManagerforMySQL
+
 
 ### 后端学习相关网站
 >https://www.extlight.com/categories/
@@ -52,6 +61,18 @@
 
 hibernate
 > https://www.w3cschool.cn/hibernate/skzl1idz.html
+
+### 其他有用的
+JSP开发配置：
+> https://www.cnblogs.com/leftshine/p/5238001.html
+
+当前流行的J2EE WEB应用架构分析
+>https://juejin.im/post/5a1f7a9951882531e9449542
+
+【JavaWeb】客户关系管理系统
+>https://juejin.im/post/5a92b8a0f265da4e9a497998
+
+#### android file transfer 安卓手机链接mac
 
 
 
